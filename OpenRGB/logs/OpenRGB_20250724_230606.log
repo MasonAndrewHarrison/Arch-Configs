@@ -1,0 +1,122 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250724_230606
+====================================================================================================
+
+1001  |Info:    Saving detector settings
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    |             Detecting I2C interfaces               |
+1009  |Info:    ------------------------------------------------------
+1009  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1009  |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-10 Device 10DE:2D04 Subsystem: 1458:41AE
+1010  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:1638 Subsystem: 1002:1636
+1010  |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2D04 Subsystem: 1458:41AE
+1010  |Info:    Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1462:7C56
+1010  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1010  |Info:    Registering I2C interface: /dev/i2c-4 Device 0000:0000 Subsystem: 0000:0000
+1010  |Info:    Registering I2C interface: /dev/i2c-11 Device 10DE:2D04 Subsystem: 1458:41AE
+1010  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:1638 Subsystem: 1002:1636
+1010  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:1638 Subsystem: 1002:1636
+1010  |Info:    Registering I2C interface: /dev/i2c-9 Device 10DE:2D04 Subsystem: 1458:41AE
+1010  |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7C56
+1010  |Info:    Registering I2C interface: /dev/i2c-5 Device 1022:790B Subsystem: 1462:7C56
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    |               Detecting I2C devices                |
+1010  |Info:    ------------------------------------------------------
+1409  |Info:    [ENE DRAM] Registering RGB controller
+1648  |Info:    [ENE DRAM] Registering RGB controller
+2568  |Info:    ------------------------------------------------------
+2568  |Info:    |               Detecting I2C PCI devices            |
+2568  |Info:    ------------------------------------------------------
+2569  |Info:    ------------------------------------------------------
+2569  |Info:    |               Detecting HID devices                |
+2569  |Info:    ------------------------------------------------------
+2634  |Info:    [MSI B550-A PRO (MS-7C56)] Registering RGB controller
+2684  |Info:    [KLM] Created new Sixty percent ANSI QWERTY with 5 rows and 14 columns containing 61 keys
+2684  |Info:    [Razer Huntsman Mini] Registering RGB controller
+2684  |Info:    ------------------------------------------------------
+2684  |Info:    |            Detecting libusb HID devices            |
+2684  |Info:    ------------------------------------------------------
+2779  |Info:    ------------------------------------------------------
+2779  |Info:    |              Detecting other devices               |
+2779  |Info:    ------------------------------------------------------
+2785  |Info:    ------------------------------------------------------
+2785  |Info:    |                Detection completed                 |
+2785  |Info:    ------------------------------------------------------
+22941 |Info:    Profile loading: FAILED! for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+22941 |Info:    Profile loading: FAILED! for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+22941 |Info:    Profile loading: FAILED! for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+22941 |Info:    Profile loading: FAILED! for Razer Huntsman Mini @ HID: /dev/hidraw6
+26874 |Info:    Found file: a.orp attempting to validate header
+26874 |Info:    Valid v4 profile found for a
+28602 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+28602 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+28602 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+28602 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+40658 |Info:    Found file: a.orp attempting to validate header
+40658 |Info:    Valid v4 profile found for a
+41564 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+41564 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+41564 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+41564 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+42459 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+42459 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+42459 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+42459 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+42879 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+42879 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+42879 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+42879 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+50167 |Info:    Found file: a.orp attempting to validate header
+50167 |Info:    Valid v4 profile found for a
+51224 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+51224 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+51224 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+51224 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+51997 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+51997 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+51997 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+51997 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+53021 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+53021 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+53021 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+53021 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+53836 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+53836 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+53836 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+53836 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+54341 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+54341 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+54341 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+54341 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+55235 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+55236 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+55236 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+55236 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+55601 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+55601 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+55601 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+55601 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+55914 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+55914 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+55914 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+55914 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+56454 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+56455 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+56455 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+56455 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+56669 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+56669 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+56669 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+56669 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
+69514 |Info:    Found file: a.orp attempting to validate header
+69514 |Info:    Valid v4 profile found for a
+70181 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x72
+70181 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-5, address 0x73
+70181 |Info:    Profile loading: Succeeded for MSI B550-A PRO (MS-7C56) @ HID: /dev/hidraw3
+70181 |Info:    Profile loading: Succeeded for Razer Huntsman Mini @ HID: /dev/hidraw6
